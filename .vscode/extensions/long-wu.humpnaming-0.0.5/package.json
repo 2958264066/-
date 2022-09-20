@@ -1,0 +1,80 @@
+{
+	"name": "humpNaming",
+	"displayName": "英文驼峰命名",
+	"description": "把中文名称修改为驼峰式英文 比如: 选中'中文函数' 这四个字后鼠标右键 ‘改为驼峰命名’ 可以改为 chineseFunction ",
+	"version": "0.0.5",
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"publisher": "long-wu",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:humpNaming.executeDefinitionProvider"
+	],
+	"keywords": [
+		"汉译应",
+		"英文化",
+		"英文名称",
+		"驼峰",
+		"命名"
+	],
+	"main": "./src/index.js",
+	"icon": "images/icon.png",
+	"contributes": {
+		"configuration": {
+			"title": "code : ch -> en",
+			"properties": {
+				"vscodePluginDemo.yourName": {
+					"type": "string",
+					"default": "guest",
+					"description": "五哥"
+				},
+				"vscodePluginDemo.showTip": {
+					"type": "boolean",
+					"default": true,
+					"description": "欢迎回来！"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "humpNaming.executeDefinitionProvider",
+				"title": "改为驼峰命名"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "humpNaming.executeDefinitionProvider",
+					"group": "navigation",
+					"when": "editorHasSelection"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint"
+	},
+	"devDependencies": {
+		"eslint": "^8.1.0"
+	},
+	"dependencies": {
+		"crypto": "^1.0.1",
+		"md5-node": "^1.0.1",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6"
+	},
+	"__metadata": {
+		"id": "59d23ddb-6df8-4a56-89c1-1d925c7f8ae9",
+		"publisherId": "45d5d144-3fcd-4a02-acf1-bf4f4444bc84",
+		"publisherDisplayName": "long wu",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1655101564707
+	}
+}

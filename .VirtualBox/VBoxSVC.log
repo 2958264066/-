@@ -1,0 +1,82 @@
+48:01:29.983388 USBPROXY Log continuation - Log started 2022-09-13T00:39:46.324233600Z
+48:01:30.124760 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+48:01:30.125146 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+48:01:30.125469 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+48:01:30.475521 dns-monitor HostDnsMonitor: updating information
+48:01:30.475625 dns-monitor HostDnsMonitor: old information
+48:01:30.475653 dns-monitor   server 1: 192.168.1.1
+48:01:30.475675 dns-monitor   no domain set
+48:01:30.475695 dns-monitor   no search string entries
+48:01:30.475897 dns-monitor HostDnsMonitor: new information
+48:01:30.475924 dns-monitor   no server entries
+48:01:30.475933 dns-monitor   no domain set
+48:01:30.475942 dns-monitor   no search string entries
+48:01:39.597715 USBPROXY usbLibGetDevices: Starting USB device enumeration
+48:01:39.598810 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+48:01:39.598936 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+48:01:39.599094 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+48:02:13.271182 dns-monitor HostDnsMonitor: updating information
+48:02:13.271244 dns-monitor HostDnsMonitor: old information
+48:02:13.271253 dns-monitor   no server entries
+48:02:13.271262 dns-monitor   no domain set
+48:02:13.271270 dns-monitor   no search string entries
+48:02:13.271279 dns-monitor HostDnsMonitor: new information
+48:02:13.271286 dns-monitor   server 1: 192.168.1.1
+48:02:13.271294 dns-monitor   server 2: 192.168.0.1
+48:02:13.271301 dns-monitor   no domain set
+48:02:13.271309 dns-monitor   no search string entries
+48:02:47.169612 USBPROXY usbLibGetDevices: Starting USB device enumeration
+48:02:47.170991 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+48:02:47.171247 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+48:02:47.173309 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+48:03:18.626251 USBPROXY usbLibGetDevices: Starting USB device enumeration
+48:03:18.627962 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+48:03:18.628844 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+48:03:18.628992 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+49:02:18.404972 dns-monitor HostDnsMonitor: updating information
+49:02:18.405065 dns-monitor HostDnsMonitor: unchanged
+50:02:18.411931 dns-monitor HostDnsMonitor: updating information
+50:02:18.412006 dns-monitor HostDnsMonitor: unchanged
+51:02:18.451024 dns-monitor HostDnsMonitor: updating information
+51:02:18.451104 dns-monitor HostDnsMonitor: unchanged
+52:02:18.487517 dns-monitor HostDnsMonitor: updating information
+52:02:18.487595 dns-monitor HostDnsMonitor: unchanged
+52:56:54.245878 USBPROXY usbLibGetDevices: Starting USB device enumeration
+52:56:54.246894 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+52:56:54.246985 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+52:56:54.247130 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+52:57:47.600523 USBPROXY usbLibGetDevices: Starting USB device enumeration
+52:57:47.601381 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+52:57:47.601495 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+52:57:47.601593 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+53:02:28.548751 dns-monitor HostDnsMonitor: updating information
+53:02:28.548779 dns-monitor HostDnsMonitor: unchanged
+53:14:18.845786 USBPROXY usbLibGetDevices: Starting USB device enumeration
+53:14:18.846667 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+53:14:18.846720 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+53:14:18.846813 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+53:37:01.305662 USBPROXY usbLibGetDevices: Starting USB device enumeration
+53:37:01.306728 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+53:37:01.306814 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+53:37:01.306949 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+54:02:38.273830 dns-monitor HostDnsMonitor: updating information
+54:02:38.273902 dns-monitor HostDnsMonitor: unchanged
+55:02:38.269923 dns-monitor HostDnsMonitor: updating information
+55:02:38.270011 dns-monitor HostDnsMonitor: unchanged
+56:02:38.265047 dns-monitor HostDnsMonitor: updating information
+56:02:38.265122 dns-monitor HostDnsMonitor: unchanged
+57:02:38.277205 dns-monitor HostDnsMonitor: updating information
+57:02:38.277280 dns-monitor HostDnsMonitor: unchanged
+57:08:32.631898          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
+57:08:39.053547 main     VirtualBox: object deletion starts
+57:08:39.053641 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\www\Snapshots/{20410f8d-abdd-487c-ab42-dabc9b254b4f}.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.055398 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\www\www.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.056646 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\rot\Snapshots/{356f5886-2496-49ec-baa0-1928637b244b}.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.056670 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\rot\Snapshots/{01d2488e-b1fe-47a3-9715-7b5559ef9aa7}.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.056679 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\rot\rot.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.058222 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\yyy\yyy.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.058386 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\86158\VirtualBox VMs\r1\r1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+57:08:39.060175 main     HostDnsMonitor: shutting down ...
+57:08:39.060207 main     HostDnsMonitor: shut down
+57:08:39.062672 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+57:08:39.063004 main     VirtualBox: object deleted

@@ -1,0 +1,17 @@
+00:00:00.576276 VirtualBox GUI VM Selector Window 6.1.34 r150636 win.amd64 (Mar 23 2022 00:36:21) release log
+00:00:00.576282 Log opened 2022-09-06T00:37:49.353828600Z
+00:00:00.576286 Build Type: release
+00:00:00.576289 OS Product: Windows 11
+00:00:00.576290 OS Release: 10.0.22000
+00:00:00.576290 OS Service Pack: 
+00:00:00.605214 DMI Product Name: VivoBook_ASUSLaptop X515EA_V5200EA
+00:00:00.610663 DMI Product Version: 1.0       
+00:00:00.610674 Firmware type: UEFI
+00:00:00.610999 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.611014 Host RAM: 16078MB (15.7GB) total, 10753MB (10.5GB) available
+00:00:00.611017 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.611018 Process ID: 6000
+00:00:00.611018 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.611663 Qt version: 5.6.2
+00:00:00.755414 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.875549 GUI: UIMediumEnumerator: Medium-enumeration finished!

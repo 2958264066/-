@@ -1,0 +1,22 @@
+{
+    "commentTranslate.displayName": "Comment Translate",
+    "commentTranslate.description": "This plugin uses the Google Translate API to translate comments for the VSCode programming language.",
+    "commentTranslate.command.select": "Quickly select the last translation area",
+    "commentTranslate.command.clipboard": "Translate Clipboard",
+    "commentTranslate.command.selectAllText": "Quickly select all String in file",
+    "commentTranslate.command.selectAllComment": "Quickly select all Comment in file",
+    "commentTranslate.command.translateAllText": "Quickly translate all String in file",
+    "commentTranslate.command.translateAllComment": "Quickly translate all Comment in file",
+    "commentTranslate.command.changeTargetLanguage": "Change translate target language",
+    "commentTranslate.command.changeTranslateSource": "Change translate source",
+    "commentTranslate.command.replaceSelections": "Translate and replace selections",
+    "commentTranslate.configuration.concise": "Concise mode.If on, only pressing Ctrl or Command will trigger floating translation",
+    "commentTranslate.configuration.contentHover": "Translate Hover Content",
+    "commentTranslate.configuration.targetLanguage": "Translation to target language",
+    "commentTranslate.configuration.source": "Translate servcie source. Google, Bing, Baidu have been built-in.",
+    "commentTranslate.configuration.openHover": "Open hover translation",
+    "commentTranslate.configuration.stringHover": "Hover translation string",
+    "commentTranslate.configuration.variableHover": "Hover translation variable",
+    "commentTranslate.configuration.selectTargetLanguageWhenReplacing": "Select TargetLanguage when replacing",
+    "commentTranslate.configuration.MultilineMerge": "Comment Multi-line merge"
+}
