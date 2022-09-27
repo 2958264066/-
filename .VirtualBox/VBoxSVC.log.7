@@ -1,140 +1,139 @@
-00:00:00.002692 main     VirtualBox COM Server 6.1.38 r153438 win.amd64 (Sep  1 2022 14:20:23) release log
-00:00:00.002694 main     Log opened 2022-09-06T11:06:21.583464100Z
-00:00:00.002694 main     Build Type: release
-00:00:00.002717 main     OS Product: Windows 11
-00:00:00.002718 main     OS Release: 10.0.22000
-00:00:00.002718 main     OS Service Pack: 
-00:00:00.069994 main     DMI Product Name: VivoBook_ASUSLaptop X515EA_V5200EA
-00:00:00.078604 main     DMI Product Version: 1.0       
-00:00:00.078621 main     Firmware type: UEFI
-00:00:00.078966 main     Secure Boot: Enabled
-00:00:00.079004 main     Host RAM: 16078MB (15.7GB) total, 4406MB (4.3GB) available
-00:00:00.079023 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
-00:00:00.079023 main     Process ID: 24808
-00:00:00.079024 main     Package type: WINDOWS_64BITS_GENERIC
-00:00:00.205596          VirtualBox: object creation starts
-00:00:00.205868          Home directory: 'C:\Users\86158\.VirtualBox'
-00:00:00.205971          Installed Drivers:
-00:00:00.210504            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.38.3438)
-00:00:00.210793            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.38.3438)
-00:00:00.211050            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.38.3438)
-00:00:00.211287            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.38.3438)
-00:00:00.211957          Loading settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:00:00.213821          usbLibGetDevices: Starting USB device enumeration
-00:00:00.214693          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
-00:00:00.214735          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
-00:00:00.215639          usbLibGetDevices: Found 3 USB devices, 0 captured
-00:00:00.215825          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x3557)
-00:00:00.215917          USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
-00:00:00.215935          USB: Unknown USB device detected (idVendor: 0x322e, idProduct: 0x2103)
-00:00:00.231497          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:00.235614          HostDnsMonitor: initializing
-00:00:00.240582          HostDnsMonitor: updating information
-00:00:00.240641          HostDnsMonitor: old information
-00:00:00.240642            no server entries
-00:00:00.240642            no domain set
-00:00:00.240643            no search string entries
-00:00:00.240643          HostDnsMonitor: new information
-00:00:00.240643            server 1: 192.168.1.1
-00:00:00.240644            no domain set
-00:00:00.240644            no search string entries
-00:00:00.267054          VD: VDInit finished with VINF_SUCCESS
-00:00:00.274748          Loading settings file "C:\Users\86158\VirtualBox VMs\www\www.vbox" with version "1.16-windows"
-00:00:00.276854          Loading settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:00.282694          Loading settings file "C:\Users\86158\VirtualBox VMs\yyy\yyy.vbox" with version "1.16-windows"
-00:00:00.283459          VirtualBox: object created
-00:00:01.847853          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:00:01.854685          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:00:02.678396          Launched VM: 70633184 pid: 9400 (0x24b8) frontend: GUI/Qt name: rot
-00:00:07.499571          AssertLogRel F:\tinderbox\win-6.1\src\VBox\Runtime\nt\RTErrConvertFromNtStatus.cpp(103) int __cdecl RTErrConvertFromNtStatus(long): <NULL>
-00:00:07.499610          Unhandled error 0xc000000b (3221225483)
-00:00:07.499642          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={An unexpected process (PID=0x00000630) has tried to lock the machine 'rot', while only the process started by LaunchVMProcess (PID=0x000024B8) is allowed}, preserve=false aResultDetail=0
-00:00:08.445625          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:00:08.606603          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:00:08.664710          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:08.876024          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:09.046339          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:24.887391          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:00:24.893873          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:00:30.871388          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:31.392730          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:37.577815          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:37.600446          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:40.501496          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:41.587063          Launched VM: 70990688 pid: 24424 (0x5f68) frontend: GUI/Qt name: rot
-00:00:45.796735          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:00:45.932156          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:00:46.278459          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:00:46.414829          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:00:46.555369          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:02:28.154445          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:02:28.181033          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:02:28.901370          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:02:56.045061 createBase Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:02:56.569934          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:02:56.575420          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:02:56.579621          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:02:56.586154          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:02:56.592249          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:03:00.016752          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:03:00.042789          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:03:23.181290          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:03:23.197918          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:03:24.675121          Launched VM: 70628800 pid: 25588 (0x63f4) frontend: GUI/Qt name: r1
-00:03:28.989985          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:03:29.131471          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:03:29.476618          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:03:29.752285          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:10:53.206681          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:12:03.860411          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:12:03.874198          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:12:04.571497          Launched VM: 70627744 pid: 16252 (0x3f7c) frontend: GUI/Qt name: rot
-00:12:08.883345          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:12:09.000622          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:12:09.379734          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:12:09.541715          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:12:09.702511          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:12:10.070597          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:12:10.096549          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:12:26.113811          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:12:26.136704          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:21:28.548515          Launched VM: 70459168 pid: 7692 (0x1e0c) frontend: GUI/Qt name: r1
-00:21:32.987593          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:21:33.121190          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:21:33.501244          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:21:33.772259          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:21:57.410781          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:21:57.422227          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:21:57.431891          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:21:57.437210          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:22:52.228468          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:22:52.249692          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:23:15.450792          Saving settings file "C:\Users\86158\VirtualBox VMs\rot\rot.vbox" with version "1.16-windows"
-00:25:14.875878          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:25:14.896932          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:25:46.837055          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:25:46.858365          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:26:03.272158          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:26:03.295610          netIfIsWireless: CreateFile on '\\.\{3A99C41A-E52B-4B85-911F-3238EE727A37}' failed with rcWin=2 (0x2) - ignoring
-00:28:00.886848          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:28:45.388088          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:28:45.413975          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:28:46.009000          Saving settings file "C:\Users\86158\VirtualBox VMs\r1\r1.vbox" with version "1.16-windows"
-00:28:48.412936          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-00:28:48.418420          Saving settings file "C:\Users\86158\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
-02:06:46.144763 dns-monitor HostDnsMonitor: updating information
-02:06:46.144978 dns-monitor HostDnsMonitor: old information
-02:06:46.145000 dns-monitor   server 1: 192.168.1.1
-02:06:46.145017 dns-monitor   no domain set
-02:06:46.145029 dns-monitor   no search string entries
-02:06:46.145043 dns-monitor HostDnsMonitor: new information
-02:06:46.145054 dns-monitor   server 1: 192.168.1.1
-02:06:46.145063 dns-monitor   server 2: 192.168.0.1
-02:06:46.145071 dns-monitor   no domain set
-02:06:46.145080 dns-monitor   no search string entries
-02:07:27.879372 USBPROXY usbLibGetDevices: Starting USB device enumeration
-02:07:27.880732 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
-02:07:27.880932 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
-02:07:27.881247 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
-03:34:33.272950 dns-monitor HostDnsMonitor: updating information
-03:34:33.273037 dns-monitor HostDnsMonitor: unchanged
+24:00:20.091560 USBPROXY Log continuation - Log started 2022-09-07T00:40:06.621136600Z
+24:00:20.112956 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+24:00:20.113183 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+24:00:20.113426 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+24:00:20.153384 USBPROXY usbLibGetDevices: Starting USB device enumeration
+24:00:20.371435 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+24:00:20.371787 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+24:00:20.373623 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+24:00:22.910097 dns-monitor HostDnsMonitor: updating information
+24:00:22.910134 dns-monitor HostDnsMonitor: old information
+24:00:22.910143 dns-monitor   no server entries
+24:00:22.910152 dns-monitor   no domain set
+24:00:22.910159 dns-monitor   no search string entries
+24:00:22.910167 dns-monitor HostDnsMonitor: new information
+24:00:22.910174 dns-monitor   server 1: 192.168.1.1
+24:00:22.910183 dns-monitor   server 2: 192.168.0.1
+24:00:22.910190 dns-monitor   no domain set
+24:00:22.910198 dns-monitor   no search string entries
+24:01:59.753078 USBPROXY usbLibGetDevices: Starting USB device enumeration
+24:01:59.754403 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+24:01:59.754530 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+24:01:59.754719 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+24:02:06.448164 USBPROXY usbLibGetDevices: Starting USB device enumeration
+24:02:06.449704 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+24:02:06.450064 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+24:02:06.451983 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+25:00:27.606621 dns-monitor HostDnsMonitor: updating information
+25:00:27.606733 dns-monitor HostDnsMonitor: unchanged
+25:02:23.557179 USBPROXY usbLibGetDevices: Starting USB device enumeration
+25:02:23.558155 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+25:02:23.558219 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+25:02:23.558345 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+26:00:27.656662 dns-monitor HostDnsMonitor: updating information
+26:00:27.656724 dns-monitor HostDnsMonitor: unchanged
+27:00:27.690917 dns-monitor HostDnsMonitor: updating information
+27:00:27.691011 dns-monitor HostDnsMonitor: unchanged
+27:01:44.736127 USBPROXY usbLibGetDevices: Starting USB device enumeration
+27:01:44.737201 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+27:01:44.737294 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+27:01:44.737394 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+27:02:15.307941 USBPROXY usbLibGetDevices: Starting USB device enumeration
+27:02:15.309113 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+27:02:15.309300 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+27:02:15.309711 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+27:02:49.685188 USBPROXY usbLibGetDevices: Starting USB device enumeration
+27:02:49.686555 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+27:02:49.686692 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+27:02:49.686866 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+27:39:30.861467 USBPROXY usbLibGetDevices: Starting USB device enumeration
+27:39:30.862797 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+27:39:30.862876 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+27:39:30.863000 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+27:40:18.103587 USBPROXY usbLibGetDevices: Starting USB device enumeration
+27:40:18.105229 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+27:40:18.105422 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+27:40:18.105655 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+28:00:27.715393 dns-monitor HostDnsMonitor: updating information
+28:00:27.715462 dns-monitor HostDnsMonitor: unchanged
+29:00:27.735584 dns-monitor HostDnsMonitor: updating information
+29:00:27.735665 dns-monitor HostDnsMonitor: unchanged
+29:19:30.619278 USBPROXY usbLibGetDevices: Starting USB device enumeration
+29:19:30.620466 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+29:19:30.620540 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+29:19:30.620674 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+29:20:15.246987 USBPROXY usbLibGetDevices: Starting USB device enumeration
+29:20:15.248359 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+29:20:15.248556 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+29:20:15.248871 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+30:00:27.759535 dns-monitor HostDnsMonitor: updating information
+30:00:27.759629 dns-monitor HostDnsMonitor: unchanged
+31:00:27.799594 dns-monitor HostDnsMonitor: updating information
+31:00:27.799742 dns-monitor HostDnsMonitor: unchanged
+32:00:27.824792 dns-monitor HostDnsMonitor: updating information
+32:00:27.824923 dns-monitor HostDnsMonitor: unchanged
+33:00:27.865472 dns-monitor HostDnsMonitor: updating information
+33:00:27.865591 dns-monitor HostDnsMonitor: unchanged
+34:00:27.910480 dns-monitor HostDnsMonitor: updating information
+34:00:27.910554 dns-monitor HostDnsMonitor: unchanged
+34:41:07.993490 USBPROXY usbLibGetDevices: Starting USB device enumeration
+34:41:07.994513 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+34:41:07.994573 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+34:41:07.994674 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+34:41:52.664353 USBPROXY usbLibGetDevices: Starting USB device enumeration
+34:41:52.665688 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+34:41:52.665769 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+34:41:52.665963 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+35:00:27.933962 dns-monitor HostDnsMonitor: updating information
+35:00:27.934006 dns-monitor HostDnsMonitor: unchanged
+35:34:09.666483 USBPROXY usbLibGetDevices: Starting USB device enumeration
+35:34:09.667503 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+35:34:09.667567 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+35:34:09.667708 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+35:34:54.330558 USBPROXY usbLibGetDevices: Starting USB device enumeration
+35:34:54.331843 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+35:34:54.331913 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+35:34:54.332032 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+35:58:55.082021 USBPROXY usbLibGetDevices: Starting USB device enumeration
+35:58:55.133424 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+35:58:55.135308 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+35:58:55.143455 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+35:58:56.510628 USBPROXY usbLibGetDevices: Starting USB device enumeration
+35:58:56.518043 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+35:58:56.518151 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+35:58:56.518337 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+41:59:00.752403 dns-monitor HostDnsMonitor: updating information
+41:59:00.752517 dns-monitor HostDnsMonitor: old information
+41:59:00.752529 dns-monitor   server 1: 192.168.1.1
+41:59:00.752538 dns-monitor   server 2: 192.168.0.1
+41:59:00.752546 dns-monitor   no domain set
+41:59:00.752553 dns-monitor   no search string entries
+41:59:00.752561 dns-monitor HostDnsMonitor: new information
+41:59:00.752573 dns-monitor   no server entries
+41:59:00.752580 dns-monitor   no domain set
+41:59:00.752587 dns-monitor   no search string entries
+47:58:47.762301 USBPROXY usbLibGetDevices: Starting USB device enumeration
+47:58:47.765744 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+47:58:47.766303 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+47:58:47.766575 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+47:58:48.002198 dns-monitor HostDnsMonitor: updating information
+47:58:48.002245 dns-monitor HostDnsMonitor: unchanged
+47:58:48.636267 USBPROXY usbLibGetDevices: Starting USB device enumeration
+47:58:48.637655 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+47:58:48.637962 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+47:58:48.638178 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+47:58:51.500492 dns-monitor HostDnsMonitor: updating information
+47:58:51.500555 dns-monitor HostDnsMonitor: old information
+47:58:51.500565 dns-monitor   no server entries
+47:58:51.500574 dns-monitor   no domain set
+47:58:51.500581 dns-monitor   no search string entries
+47:58:51.500589 dns-monitor HostDnsMonitor: new information
+47:58:51.500597 dns-monitor   server 1: 192.168.1.1
+47:58:51.500605 dns-monitor   no domain set
+47:58:51.500619 dns-monitor   no search string entries
+47:59:33.596973 USBPROXY usbLibGetDevices: Starting USB device enumeration
+47:59:33.598112 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+47:59:33.598326 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&22224d6e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+47:59:33.598584 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+48:00:34.851495 USBPROXY usbLibGetDevices: Starting USB device enumeration
+48:00:34.851552 USBPROXY Log rotated - Log started 2022-09-07T00:40:06.621136600Z

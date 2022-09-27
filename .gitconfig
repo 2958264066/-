@@ -1,0 +1,5 @@
+[credential "https://gitee.com"]
+	provider = generic
+[user]
+	name = 小杨
+	email = 11647894+yang1027@user.noreply.gitee.com

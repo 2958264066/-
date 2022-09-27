@@ -17,8 +17,8 @@
       <ExtraDataItem name="GUI/SplitterSizes" value="348,697"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutAutoCapture,remindAboutMouseIntegration,confirmInputCapture"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="30"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2022-09-14, stable, 6.1.38"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="32"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2022-09-28, stable, 6.1.38"/>
       <ExtraDataItem name="HostOnly/{f5033e9f-0de7-4716-9a8d-4574e6b15cab}/IPAddress" value="192.168.56.1"/>
       <ExtraDataItem name="HostOnly/{f5033e9f-0de7-4716-9a8d-4574e6b15cab}/IPNetMask" value="255.255.255.0"/>
       <ExtraDataItem name="HostOnly/{f5033e9f-0de7-4716-9a8d-4574e6b15cab}/IPV6Address" value="fe80::2c64:d3a3:f5f7:c85d"/>
